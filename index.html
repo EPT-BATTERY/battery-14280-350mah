@@ -66,10 +66,10 @@ section{
 }
 figure{margin:12px 0 2px; text-align:center;}
 figure img{max-width:100%; height:auto; border-radius:10px; border:1px solid var(--line);}
-figure.wide img{max-width:520px;}
 figcaption{font-size:.85rem; color:var(--muted); margin-top:6px;}
-.duo{display:flex; gap:12px; flex-wrap:wrap; justify-content:center;}
-.duo figure{flex:1 1 240px; max-width:340px; margin:6px 0;}
+.duo{display:flex; gap:14px; flex-wrap:wrap; justify-content:center; align-items:flex-start;}
+.duo figure{flex:1 1 300px; min-width:0; max-width:100%; margin:6px 0;}
+.duo figure img{width:100%; max-width:100%; display:block;}
 .mark{display:flex; gap:18px; align-items:center; flex-wrap:wrap; margin-top:8px;}
 .mark figure{margin:6px 0; flex:0 0 auto;}
 .mark figure img{max-height:120px; width:auto; padding:8px; background:#fff;}
@@ -92,7 +92,7 @@ footer{text-align:center; color:var(--muted); font-size:.85rem; padding:10px 0 0
 @media (max-width:560px){
   .kv th{width:42%;}
   .hero h1{font-size:1.3rem;}
-  .duo figure{flex:1 1 100%; max-width:none;}
+  .duo figure{flex:1 1 100%;}
 }
 </style>
 </head>
